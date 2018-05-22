@@ -6,3 +6,4 @@ curl "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.pkg" > "$HO
 sudo installer -store -pkg "$HOME/Downloads/node-installer.pkg" -target "/"
 npm install exp exptool -g
 exp path
+EXPO_DEBUG=true
