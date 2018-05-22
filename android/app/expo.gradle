@@ -21,7 +21,7 @@ afterEvaluate {
             commandLine "./android/detach-scripts/run-exp.sh", "prepare-detached-build", "--platform", "android", expoRoot
         }
     }
-    runBefore("preBuild", exponentPrebuildStep)
+    // runBefore("preBuild", exponentPrebuildStep)
 
     // Based on https://github.com/facebook/react-native/blob/master/react.gradle
     // Grab all build types and product flavors
